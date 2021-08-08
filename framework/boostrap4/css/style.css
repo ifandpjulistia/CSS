@@ -1,0 +1,26 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+.about hr {
+    width: 250px;
+    border-top: 4px solid black;
+}
+
+section {
+    min-height: 650px;
+}
+
+.portfolio hr {
+    width: 250px;
+    border-top: 4px solid black;
+}
+
+.contact hr {
+    width: 250px;
+    border-top: 4px solid black;
+}

@@ -1,0 +1,7 @@
+a {
+  background-color: rgb(80, 49, 255);
+  color: aliceblue;
+}
+.navigasi li {
+  display: inline-block;
+}

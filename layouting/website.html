@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <style>
+        body {
+            font: 16px/28px arial, sans-serif;
+            background-color: rgb(230, 225, 224);
+            background-image: url(img/beck.jpg);
+            color: rgb(68, 66, 66);
+
+        }
+        .container {
+            width: 960px;
+            margin: auto;
+            background-color: rgb(255, 255, 255);
+            border: 3px solid teal;
+            /* float: right; */
+            position: relative;
+
+            
+        }
+        .header {
+            /* padding: 20px; */
+            /* padding-top: 200px; */
+            padding-bottom: 20px;
+            /* background-color: burlywood;
+            /* position: fixed; */
+            /* z-index: ; */ 
+            position: fixed;
+
+        }
+        .header .judul {
+            padding-left: 50px;
+            padding-top: 20px;
+            color: teal;
+        }
+        .atas {
+            background-color: rgb(180, 191, 183);
+            width: 960px;
+            height: 200px;
+            top: 0; 
+            left: 0;
+        }
+        .atas  ul li  { 
+            display: inline-block;
+            margin-right: 5px;
+            /* width: 960px; */
+            margin-top: 40px;
+        }
+        .atas a {
+            text-decoration: none;
+            color: teal;
+            padding: 5px;
+        }
+        .atas a:hover{
+            background-color: rgb(255, 0, 0);
+            color: blanchedalmond;
+        }
+      
+        .hero {
+            /* padding-top: 210px; */
+            height: 330px;
+            background-image: url(img/logo.png);
+            background-size: cover;
+            background-position: 0 -30px;
+            border-top: 5px solid teal;
+            border-bottom: 5px solid tomato;
+        }
+        .penulis a {
+            text-decoration: none;
+        }
+        .main {
+            width: 600px;
+            padding: 20px;
+            box-sizing: border-box;
+            float: left;
+        }
+        .main h2 {
+            margin-bottom: -5px;
+            font-size: 25px;
+            margin-top: -5px;
+        }
+        .main .penulis {
+            font-size: 15px;
+            margin-top: 5px;
+        }
+        .footer {
+            background-color: teal;
+            color: white;
+            text-align: center;
+        }
+        .clear {
+            clear: both;
+        }
+        .sidebar {
+            width: 360px;
+            float: right;
+            padding-top: 15px;
+        }
+        .sidebar img {
+            width: 80px;
+            float: left;
+            padding-right: 15px;
+        }
+        .sidebar h3 {
+            font-weight: bold;
+            color: rgb(143, 136, 135);
+            margin-top: -2px;
+            margin-left: 5px;
+        }
+        .sidebar p {
+            /* font-size: 15px; */
+            padding: 5px;
+            font: 15px/18px arial;
+        }
+        .coba {
+            padding-top: 220px;
+        }
+        /* .iklan {
+            background-color: black;
+            position: fixed;
+            top: 100px;
+            right: 100px;
+            left: 100px;
+            bottom: 100px;
+            z-index: 1;
+            opacity: 0.7;
+        } */
+        .isi p {
+            color: blanchedalmond;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 30%;
+        }
+        /* .close {
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            border: 5px solid brown;
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 50%;
+        }
+        .close a {
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+            margin-left: 5px;
+            margin-top: 10px;
+        } */
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="iklan">
+            <div class="isi">
+                <p>Follow instagram saya ya ?</p>
+                <div class="close">
+                    <a href="#">OK</a>
+                </div>
+            </div> -->
+        <!-- </div> -->
+        <div class="header">
+            <div class="atas">
+                <h1 class="judul">MyWebsite</h1>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">ANDROID</a></li>
+                    <li><a href="#">JAVASCRIPT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="coba">
+            <div class="hero"></div>
+
+        </div>
+        <div class="content">
+            <div class="main">
+                <h2>Judul artikel</h2>
+                <p class="penulis">Di tulis oleh <a href="#">Ifan dwipriana Julistia</a> pada tanggal 28 Juli 2021</p>
+    
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere quos ipsam pariatur veritatis vero maiores consequatur tempora, dolore sapiente odio harum consectetur, illo tempore fugiat maxime sint corrupti suscipit doloribus?</p>
+    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos enim cum reprehenderit omnis tempore error laudantium impedit perferendis deleniti quia tenetur suscipit culpa quidem voluptates voluptate sint voluptatum, maxime adipisci obcaecati mollitia nemo! Quo itaque praesentium accusamus hic repellat aut quam adipisci eveniet sunt nulla velit ipsum harum, molestiae temporibus quia necessitatibus quis quas eaque at! Blanditiis vel necessitatibus sapiente fugiat ullam doloribus quidem quod, similique inventore quae, est aspernatur explicabo ad ea ducimus natus voluptate. Dolore esse obcaecati distinctio, cupiditate quaerat ducimus! Asperiores illum nulla quos quam molestiae praesentium quod qui deleniti. Accusamus autem vel repellendus officiis ratione voluptate!</p>
+    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tempora impedit cupiditate incidunt vero quo maxime ducimus fugiat harum nemo rerum placeat alias laudantium non omnis libero aliquam consequatur temporibus, ea, iste itaque id repellat vel sint? Exercitationem aliquam dignissimos, eius non atque eveniet magni porro quam rerum doloribus. Possimus itaque consequatur illo ad, nostrum ut dolorum ipsam dolores, autem unde quae architecto alias facere qui quam consectetur neque tenetur distinctio quia, tempora velit hic doloribus? Expedita nam rem asperiores sapiente nulla perferendis laborum voluptas tempore eius neque? Esse expedita praesentium, nemo ducimus reiciendis et quam est unde consectetur voluptatibus aspernatur eius odio excepturi optio voluptate accusamus voluptates illum quo tempore alias illo iure labore adipisci deleniti. Deserunt, asperiores voluptatem repellendus officiis impedit molestias eveniet sapiente quas, qui debitis quo nesciunt ipsum dolorem illo voluptatibus beatae cupiditate ex temporibus unde itaque obcaecati? Recusandae voluptatum voluptatibus rerum fuga et exercitationem magnam rem non. A vero ipsam dolorem facere perspiciatis accusamus quasi. Error alias aut quidem molestiae esse nostrum voluptas, magni quibusdam atque? Maiores, distinctio beatae ipsam quae commodi voluptate doloribus quis ratione vel eligendi rem, cupiditate nesciunt fuga delectus nemo fugiat. Nemo a eos iusto. Mollitia, consequatur! Maxime quasi nemo veritatis sapiente quam aut sit autem animi sunt earum dolorem eum ea id molestias maiores ad perferendis doloremque, esse amet quisquam labore hic in culpa corrupti? Nemo unde ea quo doloribus, exercitationem porro deserunt cupiditate in nam dolorem at incidunt eligendi impedit nisi dignissimos, nostrum natus, est minima et rerum maiores eius fuga tempore perferendis? Sint, voluptas sit repudiandae, pariatur cupiditate repellendus nobis, quibusdam iste possimus fugiat ipsum deserunt. Error qui sunt inventore voluptates architecto atque saepe nostrum placeat, explicabo cumque minus maiores. Voluptatem deleniti illum alias vitae eos atque assumenda odio non eum ipsam maiores ratione minus at odit porro, sint ab voluptate, ducimus consequuntur aliquam quis deserunt itaque. Eum placeat ducimus voluptates ex quas vero. Amet dignissimos asperiores quibusdam! Reiciendis cupiditate id corrupti, officiis in quasi repellendus aperiam dolor facere amet culpa quam soluta quidem natus at impedit beatae! Facilis quod eius fuga? Maiores aliquid ad ab aut velit veniam. Voluptate mollitia molestiae veritatis commodi eos impedit, cum perferendis maiores vero! Eveniet obcaecati accusamus facilis. Sequi, iusto soluta! Explicabo ad, quod sit ullam libero mollitia temporibus aspernatur saepe quos velit, eveniet cupiditate iure id suscipit. Distinctio rerum magnam aspernatur nemo reiciendis, unde quod consectetur itaque molestiae consequuntur! Blanditiis provident velit in molestiae atque impedit? Quaerat omnis quia recusandae quisquam facilis veniam, dolores iste corporis! Sit ratione, mollitia quos quo sed excepturi necessitatibus dicta sint debitis velit ut asperiores est eligendi quia in nam animi quisquam quae officiis quasi magni nisi illo impedit! Molestias tenetur voluptatum, amet laboriosam animi sunt corrupti voluptatibus ea quo delectus est magni repellendus libero aliquam at! Explicabo quos voluptatibus distinctio doloribus, dolore iste! Corporis saepe earum, aliquam iure magnam itaque facilis illo molestiae error quod. Ullam voluptatum minima omnis nesciunt voluptates impedit iste nihil deleniti alias, totam vitae accusantium aperiam non qui natus, quia eligendi!</p>
+            </div>
+            <div class="sidebar">
+                <h3>About</h3>
+                <img src="img/default.jpg">
+                <p>Nama : Ifan dwipriana julistia <br>
+                    Pekerjaan : WebDepelover <br>
+                    Alamat : Kuningan
+                </p>
+                
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer">
+            <p class="copy">Copyright 2022</p>
+        </div>
+    </div>
+</body>
+</html>
